@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(229, 236, 195);
+}
+img{
+    border-radius: 20px;
+
+}
+
+.navbar{
+    position: sticky; 
+    top: 0; 
+}
+
+.container{
+    margin-top: 30px;
+}
+
+
+.readmore{
+    border-radius: 15px;
+    background-color: rgb(196, 108, 196);
+    text-align: center;
+}
+
+.card-text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* 
+.newsCard{
+    padding: 30px 30px 20px 20px; 
+    min-width: 1000px;
+    margin: auto; 
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+} */
+
+.card{
+    border-color: solid rgb(172, 78, 78);
+    border-radius: 10px;
+}
+
+.newsCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
